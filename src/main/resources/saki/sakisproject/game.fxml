@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pan" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="saki.sakisproject.Game">
+   <children>
+      <Button layoutX="57.0" layoutY="636.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="102.0" text="Exit">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="flagView" fitHeight="227.0" fitWidth="467.0" layoutX="424.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="buttonA" alignment="CENTER" layoutX="108.0" layoutY="469.0" mnemonicParsing="false" onAction="#checkA" prefHeight="0.0" prefWidth="440.0" text="a">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button id="button" fx:id="buttonB" alignment="CENTER" layoutX="697.0" layoutY="469.0" mnemonicParsing="false" onAction="#checkB" prefHeight="0.0" prefWidth="440.0" text="b">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="score" layoutX="1098.0" layoutY="68.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="70.0" text="0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="871.0" layoutY="76.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="211.0" text="Score">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="result" alignment="CENTER" layoutX="207.0" layoutY="402.0" prefHeight="58.0" prefWidth="847.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="1100.0" layoutY="637.0" mnemonicParsing="false" onAction="#newFlag" prefHeight="55.0" prefWidth="102.0" text="Next">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Label fx:id="questionNumber" alignment="CENTER" layoutX="27.0" layoutY="58.0" prefHeight="67.0" prefWidth="330.0" text="Question Remain:  9" textFill="#5415dd">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button id="button" fx:id="buttonC" alignment="CENTER" layoutX="107.0" layoutY="558.0" mnemonicParsing="false" onAction="#checkC" prefHeight="0.0" prefWidth="440.0" text="c">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button id="button" fx:id="buttonD" alignment="CENTER" layoutX="698.0" layoutY="557.0" mnemonicParsing="false" onAction="#checkD" prefHeight="0.0" prefWidth="440.0" text="d">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
