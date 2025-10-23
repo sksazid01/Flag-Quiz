@@ -49,7 +49,7 @@ When started, the game displays a random flag with four possible answers. Select
 ## 🎥 Project Demonstration  
 Watch the **Flag Quiz** gameplay video here:  
 
-[![Flag Quiz Demo](Intro.png)](https://www.youtube.com/watch?v=gv25Fwjs)
+[![Flag Quiz Demo](Intro.png)](https://youtu.be/_EmwHPzKs-o)
 
 **LinkedIn Post:**  
 [View on LinkedIn](https://www.linkedin.com/posts/sksazid_flag-quiz-1-hour-project-using-javafx-activity-7154130581872672768-I36r?utm_source=share&utm_medium=member_desktop)  
